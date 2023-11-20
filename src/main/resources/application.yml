@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: qrcheckin
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 8085
+  servlet:
+    context-path: /qr-check-in
